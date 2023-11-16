@@ -1,3 +1,4 @@
+# Author: Luisa Cutillo
 community.significance.test <- function(graph, Nodeids, ...) {
   if (is.directed(graph)) stop("The graph is not undirected")
   subgraph <- induced.subgraph(graph, Nodeids)
