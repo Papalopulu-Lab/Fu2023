@@ -1,12 +1,12 @@
-numpy==1.20.3
+numpy==1.22.0
 matplotlib==3.2.1
 scipy==1.4.1
 pandas==1.0.3
 jupyter==1.0.0
 pytest==5.4.1
-tensorboard==2.2.1
+tensorboard==2.13
 tensorboard-plugin-wit==1.6.0.post3
-tensorflow
-tensorflow-estimator==2.2.0
-tensorflow-probability==0.9.0
+tensorflow==2.13.0
+tensorflow-estimator==2.13.0
+tensorflow-probability==0.21.0
 scikit-learn==0.22.2.post1
