@@ -18,5 +18,5 @@ This pipeline was first conceived and published in Cutillo et al., 2020 (https:/
 
 ## Periodicity_Analysis
 
-Matlab pipeline to determine periodicity from SOX2-mKate2 GBM1 cells. This code was writted by Andrew Rowntree to construct Figure 6 of Fu et al., 2023.
+Matlab pipeline to determine periodicity from SOX2-mKate2 GBM1 cells by Lomb-Scargle Periodogram (LSP) analysis. This code was writted by Andrew Rowntree to construct Figure 6 of Fu et al., 2023.
 
