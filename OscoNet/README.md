@@ -6,10 +6,10 @@ Bootstrap-based OscoNet method to infer sinusoidal oscillations in single cell d
 
 1. Create new environment `conda create --name osconet python=3.8` and to activate it with 
 `conda activate osconet` before proceeding. Alternative versions of python3 will likely suffice.
-2. Install required packages using `pip install -r requirements.txt`. If you have issues installing any of the packages at the specified version, try installing the latest version with `pip install <package_name>`.
+2. Install required packages using `pip install -r requirements.txt`. If you have issues installing any of the packages at the specified version, try installing the latest version with `pip install <package_name>`. Always ensure all packages are compatible with eachother, especially tensorflow packages.
 3. Install package `pip install -e .`
 4. Install numba `conda install numba`
-5. Verify your installation by running `pytest` from the project root directory `osconet`. Note this can take around 1-2 minutes. A correct installation should yield 10 passes and 0 failures. Most warnings can be ignored. The test is performed on microarray data from the Whitfield casestudy.
+5. Verify your installation by running `pytest` from the project root directory `osconet`. Note this can take around 1-2 minutes. A correct installation should yield 10 passes and 0 errors. Errors may be caused if the various tensorflow package versions are not compatible with eachother. Most warnings can be ignored. The test is performed on microarray data from the Whitfield casestudy.
 
 ## Synthetic data (Optional)
 
