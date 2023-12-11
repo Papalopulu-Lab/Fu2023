@@ -1,6 +1,6 @@
 import pytest
 import os
-from casestudy.Whitfield.reproduce_pseudotime_figures import reproduce_figures
+from test.casestudy.Whitfield.reproduce_pseudotime_figures import reproduce_figures
 
 
 def get_load_dir(request, load_directory):
@@ -14,5 +14,5 @@ def test_reproduce_figures_smoketest(request, configuration: int):
     """
     Smoketest to check we can produce both sets of figures for the different clusters
     """
-    dir_path = get_load_dir(request, '../casestudy/Whitfield/Results')
+    dir_path = get_load_dir(request, '../test/casestudy/Whitfield/Results')
     reproduce_figures(configuration, path_to_results=dir_path)

@@ -1,8 +1,8 @@
 # Network 2022
 
-This network of transcriptional interactions with miRNA regulation was first conceived and constructed by Tom Minchington as part of his PhD in the Nancy Papalopulu lab. This work was published and can be found here (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7395740/).
+The scripts in this sub-directory can be used to build a network of transcriptional interactions with miRNA regulation, using the latest databases available as of May 2023. 
 
-The scripts in this repository can be used to build an updated version of this network, using the latest databases available as of May 2023. This new network was generated as part of the experimental workflow detailed in R. Fu et al 2023 by Oliver Cottrell.
+The final constructed network can be readily be provided by the authors upon request. The identified regulatory motifs are provided in this repository. The dynamic_network_motifs.txt file contains the genes predicted to oscillate in this study.
 
 # Requirements
 

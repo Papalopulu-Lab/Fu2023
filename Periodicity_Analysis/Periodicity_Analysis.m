@@ -1,5 +1,4 @@
-% The following is the code used for the data analysis used for results in
-% Fu et. al.
+% The following is the code used for the periodicity analysis of SOX2-mKate2-GBM1 cells used in Fig 6. of Fu et al., 2023
 
 clear all; close all; clc;
 
